@@ -3,3 +3,4 @@ Putting in more desricption
 3 websites
 Creating websites for personal uses
 Making suggestions for myself and my family
+Submitting my work and showing it out to a unique audience

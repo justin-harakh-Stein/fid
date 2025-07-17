@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <title>Black Goose Bistro</title>
     <style>
         body{
@@ -27,7 +29,7 @@
 
 
         footer {
-            border-line: 1px solid #57b1dc;
+            border-top: 1px solid #57b1dc;
             text-align: center;
             padding-top: 1em;
         }
@@ -37,25 +39,28 @@
             margin-left: .5em;
             margin-right: .5em;
         }
+  
+        .order-button{
+            background-color: #084271;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
 
-  .order-button {
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-  }
-
-  .order-button:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-  }
-}
-
+        .order-button:hover {
+            background-color: #57b1dc;
+            transform: scale(1.05);
+            cursor: pointer;
+        }
 
     </style>
 </head>
     
 <body>
 
-<h1><img src="flyinggoose.png" alt="Black Goose Bistro"><br>Black Goose Bistro</h1>
+    <h1><img src="flyinggoose.png" alt="Black Goose Bistro"><br>Black Goose Bistro</h1>
 
 <nav> 
     <ul>  
@@ -68,7 +73,7 @@
     </ul>
 </nav>
 
-    <h2>The Restaurant</h2>
+<h2>The Restaurant</h2>
 
 <p>The Black Goose Bistro offers casual lunch and dinner in a relaxed atmosphere. The menu changes regulary to highlight the freshest local ingredients.</p>
 
@@ -77,16 +82,22 @@
 <h2>Location and Hours</h2>
 Seekonk, Massachusetts<br>
 Monday through Thursday: 11:00 AM - 9:00 PM; <br>Friday and Saturday: 11:00 AM to midnight<br>
-<a href="pizza.html" class="order-button">Order Pizza</a>
+
+<order>
+<h2>Order Online</h2>
+<p>Order your favorite dishes online for pickup or delivery. <a href="pizza.html">Click here to order pizza</a>.</p>
+
 </body>
 
 <footer>
-    <p>Please visit our social media pages
-        <img src="facebook.png" alt="Facebook">
-        <img src="twitter.png" alt="Twitter">  
-        <img src="tumblr.png" alt="Tumblr">
-        <img src="github.png" alt="GitHub">
+    <p>Please visit our social media pages</p>
+    <p>
+        <a href="icons/facebook.svg" target="_blank"><img src="icons/facebook.svg" alt="Facebook"></a>
+        <a href="icons/twitter.svg" target="_blank"><img src="icons/twitter.svg" alt="Twitter"></a>
+        <a href="icons/tumblr.svg" target="_blank"><img src="icons/tumblr.svg" alt="Tumblr"></a>
+        <a href="icons/github-icon.svg" target="_blank"><img src="icons/github-icon.svg" alt="GitHub"></a>
     </p>
+    
 </footer>
 
 </html>
